@@ -51,7 +51,9 @@ class link:
                     temp=temp.next
             print(s)
 
-# To display middle element in linked list
+# To display middle element in linked list by fast and slow pointing
+    #method
+    
     def _mid_(self):
         if(self.head==None):
             print('zero')
